@@ -41,26 +41,26 @@ setInterval (function(){
 
 function SampleCounter(props){
     return (
-        <div className="mainContainer bg-dark text-white w-50 p-5 ">
-            <div className="clockContainer bg-secondary p-3 ml-10 d-inline-block rounded">
+        <div className="mainContainer bg-dark text-white w-50 p-4 align=center ">
+            <div className="clockContainer bg-secondary p-3 ml-5 d-inline-block rounded">
                 <h1 className="clock d-inline"><Clock /></h1>
             </div>
-            <div className="numberContainerOne bg-secondary p-3 ml-3 d-inline-block rounded">
+            <div className="numberContainerOne bg-secondary p-3 ml-3 mr-3 d-inline-block rounded">
                 <h1 className="fourthDigit d-inline">{props.digitSix % 10}</h1>
             </div>
-            <div className="numberContainerTwo bg-secondary p-3 ml-3 d-inline-block rounded">
+            <div className="numberContainerTwo bg-secondary p-3 mr-3 d-inline-block rounded">
                 <h1 className="fourthDigit d-inline">{props.digitFive % 10}</h1>
             </div>
-            <div className="numberContainerThree bg-secondary p-3 ml-3 d-inline-block rounded">
+            <div className="numberContainerThree bg-secondary p-3 mr-3 d-inline-block rounded">
                 <h1 className="fourthDigit d-inline">{props.digitFour % 10}</h1>
             </div>
-            <div className="numberContainerFour bg-secondary p-3 ml-3 d-inline-block rounded">
+            <div className="numberContainerFour bg-secondary p-3 mr-3 d-inline-block rounded">
                 <h1 className="thirdDigit d-inline">{props.digitThree % 10}</h1>
             </div>
-            <div className="numberContainerFive bg-secondary p-3 ml-3 d-inline-block rounded">
+            <div className="numberContainerFive bg-secondary p-3 mr-3 d-inline-block rounded">
                 <h1 className="secondDigit d-inline">{props.digitTwo % 10}</h1>
             </div>
-            <div className="numberContainerSix bg-secondary p-3 ml-3 d-inline-block rounded">
+            <div className="numberContainerSix bg-secondary p-3 mr-3 d-inline-block rounded">
                 <h1 className="firstDigit d-inline">{props.digitOne % 10}</h1>
             </div>
         </div>    
